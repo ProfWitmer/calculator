@@ -13,6 +13,12 @@ def multiply(x, y):
 def mod(x, y):
     return x % y
 
+def fact(x):
+    if x == 1:
+        return 1
+    else:
+        return x * fact(x-1)
+
 if __name__ == "__main__":
     print("Executing this standalone code")
     test_divide = divide(8,4)
